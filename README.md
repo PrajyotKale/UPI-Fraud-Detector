@@ -13,8 +13,8 @@ This Streamlit application utilizes a **hybrid machine learning model** (XGBoost
 
 ### **1️⃣ Clone Repository**
 ```bash
-git clone https://github.com/your-username/fraud-detection-app.git
-cd fraud-detection-app
+git clone https://github.com/PrajyotKale/UPI-Fraud-Detector.git
+cd UPI-Fraud-Detector
 ```
 ### 2️⃣ Install Dependencies
 ```bash

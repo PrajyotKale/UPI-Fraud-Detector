@@ -419,10 +419,10 @@ def main():
             
             col1, col2 = st.columns(2)
             with col1:
-                st.progress(int(result['xgb_score'] / 100))
+                st.progress(result['xgb_score'] / 100)
                 st.caption(f"XGBoost Score: {result['xgb_score_str']}")
             with col2:
-                st.progress(int(result['transformer_score'] / 100))
+                st.progress(result['transformer_score'] / 100)
                 st.caption(f"Transformer Score: {result['transformer_score_str']}")
                 
     else:  # Batch Prediction

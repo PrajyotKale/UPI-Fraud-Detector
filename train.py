@@ -623,7 +623,7 @@ def main():
         print(f"Models saved to {base_path}/")
 
     # Uncomment to save models
-    # save_models(hybrid_models)
+    save_models(hybrid_models)
 
 if __name__ == "__main__":
     main()
